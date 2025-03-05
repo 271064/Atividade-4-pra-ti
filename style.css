@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f8ff; /* AliceBlue - Fundo claro */
+    color: #333; /* Cinza escuro para o texto principal */
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #e6e6fa; /* Lavender - Fundo do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #d8bfd8; /* Thistle - Fundo da navegação */
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #483d8b; /* DarkSlateBlue - Cor dos links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8a2be2; /* BlueViolet - Cor dos links ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5; /* LightGray - Fundo das seções */
+}
+
+h1, h2, h3 {
+    color: #4682b4; /* SteelBlue - Cor dos títulos */
+}
+
+.cta-button {
+    background-color: #ff6347; /* Tomato - Cor do botão de chamada para ação */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff4500; /* OrangeRed - Cor do botão ao passar o mouse */
+}
+
+footer {
+    background-color: #778899; /* LightSlateGray - Fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #add8e6; /* LightBlue - Cor dos links sociais ao passar o mouse */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #20b2aa; /* LightSeaGreen - Cor do botão de envio do formulário */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #008080; /* Teal - Cor do botão ao passar o mouse */
+}
